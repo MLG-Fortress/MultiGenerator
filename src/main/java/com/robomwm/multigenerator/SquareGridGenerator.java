@@ -144,7 +144,7 @@ public class SquareGridGenerator extends ChunkGenerator
         if (generator != null)
             return generator.generateChunkData(world, random, x, z, biome);
 
-        return super.createVanillaChunkData(world, x, z);
+        return super.createChunkData(world);
     }
 
     @Override
